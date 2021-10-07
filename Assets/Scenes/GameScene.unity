@@ -956,8 +956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 2.1600037, y: 0}
-  m_SizeDelta: {x: -4.326477, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.000061035156, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1408102098
 PrefabInstance:
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d30813fffbc9554d88568d74222068a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _towerSize: 6
+  _towerSize: 4
   _buildPoint: {fileID: 1590677926}
   _blockTemplate: {fileID: 1234683565488408894, guid: 0af49ea25af5c504ebed7e2e3d62230a,
     type: 3}
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4930680ec84dec24c9d8c8f800b1dae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _filledDuration: 0.5
+  _filledDuration: 1
   _slider: {fileID: 1879396717}
   _tower: {fileID: 1590677928}
   _towerBuilder: {fileID: 1590677927}
